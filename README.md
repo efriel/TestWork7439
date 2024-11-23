@@ -1,4 +1,4 @@
-# WordPress Custom City Temperature App
+# WordPress List of Cities Temperature App
 
 ## Introduction
 This project is a WordPress-based assignment application showcasing the integration of custom post types, fields, and taxonomies with a public API to display city temperatures. It demonstrates how to manage custom content and dynamically fetch data using OpenWeatherMap.
@@ -33,7 +33,8 @@ Experience the app's features and functionality by visiting [Demo Site](https://
    git clone https://github.com/efriel/abelohost.git
    ```
 
-2. **Database Setup**:  
+2. **Database Setup**:
+   Import the .sql file from the folder root, 
    Update the `wp-config.php` file with your database details:  
    ```php
    define( 'DB_NAME', 'abelodb' );
