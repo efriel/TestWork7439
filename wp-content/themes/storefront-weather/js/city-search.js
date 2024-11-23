@@ -18,4 +18,5 @@ jQuery(document).ready(function ($) {
         const searchValue = $('#city-search').val();
         loadCities(searchValue);
     });
+    
 });

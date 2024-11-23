@@ -254,12 +254,17 @@ function enqueue_city_search_script() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_city_search_script');
 
+function enqueue_export_print_script() {
+    wp_enqueue_script('export-print', get_stylesheet_directory_uri() . '/js/export-print.js', array('jquery'), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_export_print_script');
+
 add_action('before_cities_table', function() {
-    echo '<h2>Custom Hook 1</h2>';
+    echo '<button id="export-csv">Export to CSV</button>';
 });
 
 add_action('after_cities_table', function() {
-    echo '<h2>Custom Hook 2</h2>';
+    echo '<button id="print-table">Print Table</button>';
 });
 
 ?>
