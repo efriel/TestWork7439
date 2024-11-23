@@ -1,4 +1,4 @@
-# WordPress List of Cities Temperature App
+# WordPress List of Cities Temperature App (TestWork7439)
 
 ## Introduction
 This project is a WordPress-based assignment application showcasing the integration of custom post types, fields, and taxonomies with a public API to display city temperatures. It demonstrates how to manage custom content and dynamically fetch data using OpenWeatherMap.
@@ -30,7 +30,7 @@ Experience the app's features and functionality by visiting [Demo Site](https://
 ## Installation
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/efriel/abelohost.git
+   git clone https://github.com/efriel/TestWork7439.git
    ```
 
 2. **Database Setup**:
